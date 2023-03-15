@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "TextUtils",
+        "git": "https://github.com/NewbieRitesh/textutils",
+        "web": "https://textutils-newbie.netlify.app/",
+        "desc": "textUtils is basic text utilities services where we can perform some action on strings and count words, space, characters etc.",
+        "tech": "React JS, BootStrap"
+    },
+    {
+        "id": 2,
+        "title": "News App",
+        "git": "https://github.com/NewbieRitesh/NR-News",
+        "desc": "This is a news web app created by react library by using news api. In this project developer api is used so we have to download source code and run this project by 'npm start' to run this web app",
+        "tech": "React JS, BootStrap, NewsAPI"
+    },
+    {
+        "id": 3,
+        "title": "Desire Infotech Final Project",
+        "git": "https://github.com/NewbieRitesh/desire-final-react-project",
+        "web": "https://ritesh-desire-project.netlify.app/",
+        "desc": "This is institute where i learned concepts of React Js and this is their final react project app",
+        "tech": "React JS, TailWind CSS"
+    }
+]
