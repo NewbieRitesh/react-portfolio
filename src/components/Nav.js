@@ -7,7 +7,7 @@ export default function Nav() {
     async function onToggleMenu(e) {
         const navLinks = await document.querySelector('.nav-links')
         setToggle(toggle === 'list' ? 'x-lg' : 'list')
-        navLinks.classList.toggle(setTogglePosition(toggle !== 'list' ? "top-[-160px]" : "top-[80px]"))
+        navLinks.classList.toggle(setTogglePosition(toggle !== 'list' ? "top-[-160px]" : "top-[80px] bg-[rgb(0,0,0,0.5)]"))
     }
     async function onToggleMenuClick(){
         if(toggle!=='list'){
