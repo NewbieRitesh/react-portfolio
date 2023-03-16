@@ -6,7 +6,7 @@ export default function Contact() {
                     <a href="https://github.com/NewbieRitesh" className="hover:text-gray-300 text-4xl mx-1 p-1"><i className="bi bi-github"></i><span className="text-2xl"> /NewbieRitesh</span></a>
                 </li>
                 <li className="m-3">
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=riteshsharma34567@gmail.com" className="hover:text-gray-300 mx-1 p-1 text-4xl"><i className="bi bi-envelope-at-fill"></i><span className="text-2xl"> riteshsharma34567@gmail.com</span></a>
+                    <a href="mailto:riteshsharma34567@gmail.com" className="hover:text-gray-300 mx-1 p-1 text-4xl"><i className="bi bi-envelope-at-fill"></i><span className="text-2xl"> riteshsharma34567@gmail.com</span></a>
                 </li>
                 <li className="m-3">
                     <a href="https://twitter.com/NewbieRitesh" className="hover:text-gray-300 mx-1 p-1 text-4xl"><i className="bi bi-twitter"></i><span className="text-2xl"> /NewbieRitesh</span></a>
