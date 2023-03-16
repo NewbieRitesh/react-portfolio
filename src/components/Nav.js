@@ -9,7 +9,7 @@ export default function Nav() {
         setToggle(toggle === 'list' ? 'x-lg' : 'list')
         navLinks.classList.toggle(setTogglePosition(toggle !== 'list' ? "top-[-160px]" : "top-[80px]"))
     }
-    async function onToggleMenuImgClick(){
+    async function onToggleMenuClick(){
         if(toggle!=='list'){
             onToggleMenu()
         }
@@ -17,14 +17,14 @@ export default function Nav() {
     return (
         <header className="bg-transperent z-40">
             <nav className="flex justify-between h-20 items-center max-w-[1200px] px-5 mx-auto text-white font-semibold">
-                <Link onClickCapture={onToggleMenuImgClick} className="z-40" to='/'>
+                <Link onClickCapture={onToggleMenuClick} className="z-40" to='/'>
                     <img src="/imgs/profile.jpg" alt="error" className="h-14 sm:m-auto border rounded-full sm:mr-1" />
                 </Link>
                 <div className={`nav-links backdrop-blur-sm z-30 duration-500 md:static absolute left-0 ${togglePosition} md:w-auto  w-full flex items-center px-5`}>
                     <ul className="flex md:flex-row flex-col md:justify-between z-40 md:items-center ">
-                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenu} to="/about">About</Link>
-                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenu} to="/project">Projects</Link>
-                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenu} to="/contact">Contact</Link>
+                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenuClick} to="/about">About</Link>
+                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenuClick} to="/project">Projects</Link>
+                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenuClick} to="/contact">Contact</Link>
                         {/* <li className="m-2.5">
                             <a className="hover:text-gray-300" href="/">Solution</a>
                         </li> */}
