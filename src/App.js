@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import './input.css';
+// import './input.css';
 import About from './components/About';
 import Contact from './components/Contact';
 import Nav from './components/Nav';
@@ -12,15 +12,15 @@ function App() {
     <>
       <BrowserRouter>
         <Nav />
-        <Routes>
-          <Route path='/' element={<Reactjs />} />
-          <Route path='/project' element={<div className='m-2'><Project /></div>} />
-          <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
-        
-        </Routes>
-          {/* <Skills /> */}
-          <Resume />
+        <div className='flex flex-col align-center flex-[1] items-center justify-center'>
+          <Routes>
+            <Route path='/' element={<Reactjs />} />
+            <Route path='/project' element={<div className='m-2'><Project /></div>} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
+        </div>
+        <Resume />
       </BrowserRouter>
     </>
   );
