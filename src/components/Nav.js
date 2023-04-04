@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 
 export default function Nav() {
     const [toggle, setToggle] = useState('list')
@@ -14,6 +14,7 @@ export default function Nav() {
             onToggleMenu()
         }
     }
+
     return (
         <header className="bg-transperent z-40">
             <nav className="flex justify-between h-20 items-center max-w-[1200px] px-5 mx-auto text-white font-semibold">
@@ -22,9 +23,9 @@ export default function Nav() {
                 </Link>
                 <div className={`nav-links backdrop-blur-sm z-30 duration-500 md:static absolute left-0 ${togglePosition} md:w-auto  w-full flex items-center px-5`}>
                     <ul className="flex md:flex-row flex-col md:justify-between z-40 md:items-center ">
-                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenuClick} to="/about">About</Link>
-                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenuClick} to="/project">Projects</Link>
-                        <Link className="m-2.5 hover:text-gray-300" onClickCapture={onToggleMenuClick} to="/contact">Contact</Link>
+                        <Link className={`m-2.5 hover:text-gray-300 ${useLocation().pathname==='/about'?'font-medium':'font-normal'}`} onClickCapture={onToggleMenuClick} to="/about">About</Link>
+                        <Link className={`m-2.5 hover:text-gray-300 ${useLocation().pathname==='/project'?'font-medium':'font-normal'}`} onClickCapture={onToggleMenuClick} to="/project">Projects</Link>
+                        <Link className={`m-2.5 hover:text-gray-300 ${useLocation().pathname==='/contact'?'font-medium':'font-normal'}`} onClickCapture={onToggleMenuClick} to="/contact">Contact</Link>
                         {/* <li className="m-2.5">
                             <a className="hover:text-gray-300" href="/">Solution</a>
                         </li> */}

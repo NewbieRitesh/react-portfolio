@@ -11,7 +11,7 @@ export default function Skills() {
                         </tr>
                         <tr className="border-y">
                             <td>Frameworks and Libraries</td>
-                            <td>React <br />Redux (learning) <br />Tailwind CSS <br />BootStrap CSS <br /> Node JS (learning) <br />Express JS (learning)</td>
+                            <td>React <br />Redux <br />Tailwind CSS <br />BootStrap CSS <br /> Next JS (learning) <br /> Node JS (learning) <br />Express JS (learning)</td>
                         </tr>
                         <tr className="border-y">
                             <td>Database</td>

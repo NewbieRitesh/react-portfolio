@@ -1,7 +1,7 @@
 export default function ProjectStur(props) {
     return (
         <>
-            <div className={`bg-transperent backdrop-blur-sm rounded-lg md:w-[800px] m-2 p-3 font-semibold text-white`}>
+            <div className={`bg-transperent backdrop-blur-sm rounded-lg md:w-[720px] m-2 p-3 font-semibold text-white`}>
                 <div className="title border-white border-b-2">
                     <label htmlFor="Title">
                         Project Name:
