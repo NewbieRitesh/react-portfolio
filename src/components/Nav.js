@@ -37,9 +37,9 @@ export default function Nav() {
                 <div className="z-40 flex items-center gap-6">
                     <div id="social-links">
                         <ul>
-                            <a href="https://github.com/NewbieRitesh" className="hover:text-gray-300 mx-1 p-1"><i className="bi bi-github"></i> <span className="text-sm">GitHub</span></a>
+                            <a href="https://github.com/riteshsharma-pc" className="hover:text-gray-300 mx-1 p-1"><i className="bi bi-github"></i> <span className="text-sm">GitHub</span></a>
                             <a href="mailto:riteshsharma34567@gmail.com" className="hover:text-gray-300 mx-1 p-1"><i className="bi bi-envelope-at-fill"></i></a>
-                            <a href="https://twitter.com/NewbieRitesh" className="hover:text-gray-300 mx-1 p-1"><i className="bi bi-twitter"></i></a>
+                            <a href="https://twitter.com/riteshsharma_pc" className="hover:text-gray-300 mx-1 p-1"><i className="bi bi-twitter"></i></a>
                             <a href="https://www.linkedin.com/in/riteshsharma34567" className="hover:text-gray-300 mx-1 p-1"><i className="bi bi-linkedin"></i></a>
                             <a href="https://wa.me/+919664958294" className="hover:text-gray-300 mx-1 p-1"><i className="bi bi-whatsapp"></i></a>
                         </ul>
