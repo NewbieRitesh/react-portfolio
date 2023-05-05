@@ -1,23 +1,39 @@
 [
     {
         "id": 1,
-        "title": "TextUtils",
-        "git": "https://github.com/NewbieRitesh/textutils",
-        "web": "https://textutils-newbie.netlify.app/",
-        "desc": "textUtils is basic text utilities services where we can perform some action on strings and count words, space, characters etc.",
-        "tech": "React JS, BootStrap"
+        "title": "Notes App",
+        "git": {
+            "backend": "https://github.com/riteshsharma-pc/backend-inotebook",
+            "frontend": "https://github.com/riteshsharma-pc/inotebook-frontend"
+        },
+        "desc": "The notebook app is a user-friendly tool to add, update, and delete notes. Users can sign up and login securely access their notes from anywhere. Whether you want to organize your thoughts or capture an idea, the notebook app is a convenient solution to keep your notes safe and easily accessible.",
+        "tech": "Node JS, Express JS, MongoDB, React JS, BootStrap"
     },
     {
         "id": 2,
         "title": "News App",
-        "git": "https://github.com/NewbieRitesh/NR-News",
+        "git": {
+            "frontend": "https://github.com/riteshsharma-pc/NR-News"
+        },
         "desc": "This is a news web app created by react library by using news api. In this project developer api is used so we have to download source code and run this project by 'npm start' to run this web app",
         "tech": "React JS, BootStrap, NewsAPI"
     },
     {
         "id": 3,
+        "title": "TextUtils",
+        "git": {
+            "frontend": "https://github.com/riteshsharma-pc/textutils"
+        },
+        "web": "https://textutils-newbie.netlify.app/",
+        "desc": "textUtils is basic text utilities services where we can perform some action on strings and count words, space, characters etc.",
+        "tech": "React JS, BootStrap"
+    },
+    {
+        "id": 4,
         "title": "Desire Infotech Final Project",
-        "git": "https://github.com/NewbieRitesh/desire-final-react-project",
+        "git": {
+            "frontend": "https://github.com/riteshsharma-pc/desire-final-react-project"
+        },
         "web": "https://ritesh-desire-project.netlify.app/",
         "desc": "This is institute where i learned concepts of React Js and this is their final react project app",
         "tech": "React JS, TailWind CSS"
